@@ -161,6 +161,10 @@ header {
   font-weight: bold;
 }
 
+aside {
+  margin-bottom: 20px;
+}
+
 .footer {
   background-color: #02A28F;
   color: white;
@@ -199,7 +203,7 @@ header {
 }
 
 @media screen and (max-width: 992px) {
-  body {
+  main {
     padding: 0 20px;
   }
 }
