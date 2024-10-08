@@ -5,7 +5,8 @@
   padding: 0;
 }
 
-body, html {
+body,
+html {
   height: 100%;
 }
 
@@ -65,7 +66,8 @@ header {
   margin-right: 4px;
 }
 
-.post-content h3, .post-content h4 {
+.post-content h3,
+.post-content h4 {
   margin: 0;
 }
 
@@ -75,14 +77,14 @@ header {
 
 .recent-posts-container {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .recent-posts {
-  flex: 0 0 70%; 
+  flex: 0 0 70%;
   margin-right: 20px;
 }
 
@@ -133,8 +135,8 @@ header {
   font-style: italic;
 }
 
-.categorias {
-  flex: 0 0 25%; 
+.categories {
+  flex: 0 0 25%;
   background-color: white;
   border-radius: 10px;
   padding: 5px;
@@ -143,54 +145,61 @@ header {
   line-height: 1.5;
 }
 
-.categorias-header {
-  background-color: #02A28F; 
+.categories-header {
+  background-color: #02A28F;
   color: white;
   padding: 10px;
-  border-radius: 10px; 
+  border-radius: 10px;
   text-align: center;
   margin-bottom: 15px;
 }
 
-.categoria-count {
-  float: right; 
+.category-count {
+  float: right;
   margin-left: 10px;
-  color: #616161; 
+  color: #616161;
   font-weight: bold;
 }
 
-.site-footer {
-  background-color: #02A28F; 
-  color: white; 
+.footer {
+  background-color: #02A28F;
+  color: white;
   padding: 10px;
   text-align: center;
 }
 
 @media (max-width: 768px) {
   .container {
-    flex-direction: column; 
+    flex-direction: column;
   }
 
-  .image-container, .text-container {
-    max-width: 100%; 
-    margin-right: 0; 
+  .image-container,
+  .text-container {
+    max-width: 100%;
+    margin-right: 0;
   }
 
   .recent-posts-container {
-    flex-direction: column; 
+    flex-direction: column;
   }
 
   .recent-posts {
-    margin-right: 0; 
-    flex: 1; 
+    margin-right: 0;
+    flex: 1;
   }
 
-  .categorias {
-    flex: 1; 
-    margin-top: 20px; 
+  .categories {
+    flex: 1;
+    margin-top: 20px;
   }
 
   .news-item {
-    width: 100%; 
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    padding: 0 20px;
   }
 }
